@@ -32,13 +32,16 @@ There are four endpoints:
 And three valid queries:
 
 ```
-/brand/<brand>  - The current day is the default query period
+The current day is the default query period
+/brand/<brand>  
 ```
 ```
-/brand/<brand>?begin=<date string(YYYY-MM-dd)> - Defines "begin" as period.
+Defines "begin" as period.
+/brand/<brand>?begin=<date string(YYYY-MM-dd)> 
 ```
 ```
-/brand/<brand>?begin=<date string(YYYY-MM-dd)>&end=<date string(YYYY-MM-dd)> - Queries the given period
+Queries the given period
+/brand/<brand>?begin=<date string(YYYY-MM-dd)>&end=<date string(YYYY-MM-dd)> 
 ```
 The fields are:
 
@@ -147,7 +150,7 @@ Price ratio on product purchase
 Brands with more dropouts in the shopping cart
 Plot coordinates
 Comparison between brands
-Rating difference between similar products from two different brands Ex: (Samsumg TV, LG TV), using NLP algorithms
+Rating difference between similar products from two different brands Ex: (Samsung TV, LG TV), using NLP algorithms
 ```
 
 
