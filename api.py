@@ -63,7 +63,7 @@ def department_handler(department):
 		abort(400, 'Invalid Parameters')
 	
 	period = get_period(begin,end)  	
-	return jsonify(ins.product_main(dfAll, department, period[0], period[1]))
+	return jsonify(ins.department_main(dfAll, department, period[0], period[1]))
 
 @app.route("/channel/<channel>")
 def channel_handler(channel):
@@ -74,7 +74,7 @@ def channel_handler(channel):
 		abort(400, 'Invalid Parameters')
 	
 	period = get_period(begin,end)  	
-	return jsonify(ins.product_main(dfAll, channel, period[0], period[1]))
+	return jsonify(ins.channel_main(dfAll, channel, period[0], period[1]))
 
 if __name__ == "__main__":
     app.run()
