@@ -8,10 +8,18 @@ Python 3.5
 
 Setup
 
-Open the terminal, go to the project directory and run:
+Open the terminal, go to the project directory and:
+
+If you are using a ENV manager run:
+```
+sh setup_env.sh
+```
+
+If you are not using a ENV manager run:
 ```
 sh setup.sh
 ```
+
 The PSV file must be in the same directory as "insights.py"
 
 To start the API you must run:
