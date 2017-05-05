@@ -23,12 +23,12 @@ if you are not using a ENV manager, try
 python3.5 api.py
 ```
 There are four endpoints:
-
+```
 /brand/<brand>
 /product/<product>
 /department/<department>
 /channel/<channel>
-
+```
 And three valid queries:
 ```
 /brand/<brand>
