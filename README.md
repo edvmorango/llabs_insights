@@ -40,8 +40,10 @@ And three valid queries:
 /brand/<brand>?begin=<date string(YYYY-MM-dd)>&end=<date string(YYYY-MM-dd)>
 ```
 The fields are:
-Products:
+
 ```
+Product
+
 actions : Show all actions, the count and percentage
 brand : The product brand
 category: The product category
@@ -62,5 +64,88 @@ total_likeds: Number of liked products
 total_views: Number of views
 unique_users: Total single users who interacted
 ```
+
+```
+Brand
+
+brand: The brand name
+revenue:  Total sales
+rating: The rating
+price_avg: The product average price
+price_max: The product max price
+price_min: The product min price
+unique_users: Total single users who interacted
+total_boughts: Number of bought products
+total_dislikeds: Number of disliked products
+total_likeds: Number of liked products
+total_views: Number of views
+departments:  Show all departments, the count and percentage
+departments_total : The number of departments
+products:  Show all products, the count and percentage
+products_total: The number of products
+categories:  Show all categories, the count and percentage
+categories_total: The number of categories
+actions:  Show all actions, the count and percentage
+actions_total:  The number of actions
+channels:  Show all channels, the count and percentage
+channels_total:  The number of channels
+```
+
+```
+Department
+
+deparment: The department name
+revenue:  Total sales
+rating: The rating
+price_avg: The product average price
+price_max: The product max price
+price_min: The product min price
+unique_users: Total single users who interacted
+total_boughts: Number of bought products
+total_dislikeds: Number of disliked products
+total_likeds: Number of liked products
+total_views: Number of views
+brands:  Show all brands, the count and percentage
+brands_total : The number of brands
+products:  Show all products, the count and percentage
+products_total: The number of products
+categories:  Show all categories, the count and percentage
+categories_total: The number of categories
+channels:  Show all channels, the count and percentage
+channels_total:  The number of channels
+```
+
+```
+Channel
+
+channel: The department name
+revenue:  Total sales
+rating: The rating
+price_avg: The product average price
+price_max: The product max price
+price_min: The product min price
+unique_users: Total single users who interacted
+total_boughts: Number of bought products
+total_dislikeds: Number of disliked products
+total_likeds: Number of liked products
+total_views: Number of views
+brands:  Show all brands, the count and percentage
+brands_total : The number of brands
+products:  Show all products, the count and percentage
+products_total: The number of products
+categories:  Show all categories, the count and percentage
+categories_total: The number of categories
+departments:  Show all departments, the count and percentage
+departments_total : The number of departments
+```
+
+
+What will come:
+
+Price ratio on product purchase
+Brands with more dropouts in the shopping cart
+Plot coordinates
+Comparison between brands
+Rating difference between similar products from two different brands Ex: (Samsumg TV, LG TV), using NLP algorithms
 
 
