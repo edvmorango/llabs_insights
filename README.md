@@ -183,16 +183,13 @@ There are four endpoints:
 And three valid queries:
 
 ```
-The current day is the default query period
-/brand/<brand>
+/brand/<brand>  - The current day is the default query period
 ```
 ```
-Defines "begin" as period.
-/brand/<brand>?begin=<date string(YYYY-MM-dd)>
+/brand/<brand>?begin=<date string(YYYY-MM-dd)> - Defines "begin" as period.
 ```
 ```
-Queries the given period
-/brand/<brand>?begin=<date string(YYYY-MM-dd)>&end=<date string(YYYY-MM-dd)>
+/brand/<brand>?begin=<date string(YYYY-MM-dd)>&end=<date string(YYYY-MM-dd)> - Queries the given period
 ```
 The fields are:
 
